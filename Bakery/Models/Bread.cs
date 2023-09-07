@@ -1,7 +1,22 @@
 namespace Bakery.Models
 {
-  public class Bread
+  public class BreadOrder
   {
-    // Bread code here.
+    public int Quantity { get; set; }
+
+    public BreadOrder(int quantity)
+    {
+      Quantity = quantity;
+    }
+
+    public decimal CalculateBreadCost()
+    {
+      int breadDealCount = Quantity / 3;
+      int breadRegularCount = Quantity % 3;
+
+      decimal breadCost = (breadDealCount * 2 + breadRegularCount) * 5.0m;
+
+      return breadCost; 
+    }
   }
 }
