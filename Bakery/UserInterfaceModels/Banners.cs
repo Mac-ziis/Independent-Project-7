@@ -27,7 +27,17 @@ d88'`?88P'`?88P'`88bd88' `?88b,`?888P'd88'     `?88P'?8b
 
   class GoodbyeBanner
   {
-    // GoodbyeBanner code here.
+    public static string Goodbye { get; } = @"
+                                                                           
+   d8P   ?88                           ?88                                      
+d888888P  88b                           88b                                     
+  ?88'    888888b  d888b8b    88bd88b   888  d88'    ?88   d8P  d8888b ?88   d8P
+  88P     88P `?8bd8P' ?88    88P' ?8b  888bd8P'     d88   88  d8P' ?88d88   88 
+  88b    d88   88P88b  ,88b  d88   88P d88888b       ?8(  d88  88b  d88?8(  d88 
+  `?8b  d88'   88b`?88P'`88bd88'   88bd88' `?88b,    `?88P'?8b `?8888P'`?88P'?8b
+                                                            )88                 
+                                                           ,d8P                 
+                                                        `?888P'";                 
   }
 
   class SubMenuBanner
