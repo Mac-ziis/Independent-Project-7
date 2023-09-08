@@ -3,7 +3,7 @@ namespace Bakery.Models
   public class PastryOrder
   {
     public int Quantity { get; set; }
-    
+
     public PastryOrder(int quantity)
     {
       Quantity = quantity;
