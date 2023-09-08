@@ -9,9 +9,12 @@ namespace Bakery.Tests
   public class PastryTests
   {
     [TestMethod]
-    public void TestName()
+    public void Pastry_CalculateCost()
     {
-      
+      PastryOrder pastryOrder = new PastryOrder(5);
+      decimal cost = pastryOrder.CalculatePastryCost();
+
+      Assert.AreEqual(9.0m, cost);
     }
   }
 }
