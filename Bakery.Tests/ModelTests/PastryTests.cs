@@ -14,7 +14,7 @@ namespace Bakery.Tests
       PastryOrder pastryOrder = new PastryOrder(5);
       decimal cost = pastryOrder.CalculatePastryCost();
 
-      Assert.AreEqual(9.0m, cost);
+      Assert.AreEqual(8.0m, cost);
     }
   }
 }

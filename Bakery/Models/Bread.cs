@@ -16,7 +16,7 @@ namespace Bakery.Models
 
       decimal breadCost = (breadDealCount * 2 + breadRegularCount) * 5.0m;
 
-      return breadCost; 
+      return breadCost;
     }
   }
 }
