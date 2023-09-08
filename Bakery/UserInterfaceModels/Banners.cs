@@ -40,8 +40,4 @@ d888888P  88b                           88b
                                                         `?888P'";                 
   }
 
-  class SubMenuBanner
-  {
-    // SubMenuBanner code here.
-  }
 }
