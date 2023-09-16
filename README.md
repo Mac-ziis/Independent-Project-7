@@ -23,7 +23,7 @@ _This console Application will prompt the user to enter an integer amount (one a
 * _Open your shell (e.g., Terminal or GitBash) and navigate to this project's production directory called "Bakery"._
 * _Run "dotnet run" in the command line to run the console app. Since this is a console application, you'll interact with it through text commands in your terminal._
 * _Optionally, you can run "dotnet build" to compile this console app without running it._
-* _To run tests you'll navigate into the Bakery.Tests directory and then run "dotnet test"._
+* _To run tests, you'll navigate into the Bakery.Tests directory and then run "dotnet test"._
 
 ## Known Bugs
 
