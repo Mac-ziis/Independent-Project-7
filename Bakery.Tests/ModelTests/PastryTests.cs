@@ -16,5 +16,14 @@ namespace Bakery.Tests
 
       Assert.AreEqual(8.0m, cost);
     }
+    // Shows the reduction after deals
+    [TestMethod]
+    public void Pastry_CalculateReducedCost()
+    {
+      PastryOrder pastryOrder = new PastryOrder(6);
+      decimal cost = pastryOrder.CalculatePastryCost();
+
+      Assert.AreEqual(10.0m, cost);
+    }
   }
 }
